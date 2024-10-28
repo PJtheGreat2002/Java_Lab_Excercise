@@ -1,4 +1,3 @@
-package Java_Lab_Excercise.Lab_2;
 import java.util.Scanner;
 
 public class ShareTrader {
