@@ -6,7 +6,7 @@ interface WaterConservationSystem
 
 abstract class RainySeasonConservation implements WaterConservationSystem
 {
-    // all the method and logic
+    // comment
 }
 
 class CityBlockConservation extends RainySeasonConservation
@@ -47,7 +47,7 @@ public class Question2 {
         System.out.print("Enter the length of array : ");
         int n = sc.nextInt();
 
-        System.out.println("\nEnter array : ");
+        System.out.print("\nEnter array : ");
         int blockHeights[] = new int[n];
 
         for(int i = 0; i < blockHeights.length; i++)
