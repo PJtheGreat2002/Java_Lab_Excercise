@@ -13,7 +13,8 @@ class CityBlockConservation extends RainySeasonConservation
 {
     public int calculateTrappedWater(int[] blockHeights)
     {
-        if (blockHeights == null || blockHeights.length < 3) {
+        if (blockHeights == null || blockHeights.length < 3) 
+        {
             System.out.println("Insufficient blocks to trap water.");
             return 0;
         }
