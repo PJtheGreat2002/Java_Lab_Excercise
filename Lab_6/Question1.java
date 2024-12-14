@@ -1,4 +1,4 @@
-package Lab_6;
+//package Lab_6;
 
 public class Question1 {
 
@@ -14,8 +14,7 @@ public class Question1 {
         if (sum < 0 || n <= 0) return 0;
 
         
-        return countCombinations(coins, n, sum - coins[n - 1]) + 
-               countCombinations(coins, n - 1, sum);
+        return countCombinations(coins, n, sum - coins[n - 1]) + countCombinations(coins, n - 1, sum);
     }
 
     static class IncludeLastRunnable implements Runnable {
